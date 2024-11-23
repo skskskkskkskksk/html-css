@@ -9,6 +9,7 @@ div.hdrTopWrap>div.hdrTop{
     /* margin 0 auto */
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 div.hdrTopWrap>div.hdrTop>div.icons>i{}
 div.hdrTopWrap>div.hdrTop>nav{
@@ -26,6 +27,7 @@ div.hdrWrap>header.hdr{
      /* margin 0 auto */
      margin: 0 auto;
      display: flex;
+     justify-content: space-between;
 }
 div.hdrWrap>header.hdr>h1{}
 div.hdrWrap>header.hdr>nav{
