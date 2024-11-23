@@ -6,7 +6,6 @@ div.hdrTopWrap>div.hdrTop{
     width: 80%;
     /* max-width: ma tab; */
     max-width: 1080px ;
-    outline: 1px solid red;
     /* margin 0 auto */
     margin: 0 auto;
     display: flex;
@@ -24,7 +23,6 @@ div.hdrWrap>header.hdr{
      width: 80%;
      /* max-width: ma tab; */
      max-width: 1080px ;
-     outline: 1px solid red;
      /* margin 0 auto */
      margin: 0 auto;
      display: flex;
@@ -43,7 +41,6 @@ div.cntWrap>div.content{
      width: 80%;
      /* max-width: ma tab; */
      max-width: 1080px ;
-     outline: 1px solid red;
      /* margin 0 auto */
      margin: 0 auto;
 }
