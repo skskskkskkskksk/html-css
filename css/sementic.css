@@ -80,7 +80,9 @@ div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts>p>div.ic
 div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm{
     display: flex;
 }
-div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article{
+    background-color: cornflowerblue;
+}
 div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.image{}
 div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts{}
 div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>h3{}
@@ -128,7 +130,6 @@ div.ftrWrap>footer{
      width: 80%;
      /* max-width: ma tab; */
      max-width: 1080px ;
-     outline: 1px solid red;
      /* margin 0 auto */
      margin: 0 auto;
 }
