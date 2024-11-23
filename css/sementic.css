@@ -1,16 +1,18 @@
 @import url('./all.min.css');
 /* 헤더탑 */
-div.hdrTop{}
-div.hdrTop>div.icons>i{}
-div.hdrTop>nav{}
-div.hdrTop>nav>h4{}
+div.hdrTopWrap{}
+div.hdrTopWrap>div.hdrTop{}
+div.hdrTopWrap>div.hdrTop>div.icons>i{}
+div.hdrTopWrap>div.hdrTop>nav{}
+div.hdrTopWrap>div.hdrTop>nav>h4{}
 
 /* 헤더 */
-header.hdr{}
-header.hdr>h1{}
-header.hdr>h1>nav{}
-header.hdr>h1>nav>h4{}
-header.hdr>h1>nav>h4>i{}
+div.hdrWrap{}
+div.hdrWrap>header.hdr{}
+div.hdrWrap>header.hdr>h1{}
+div.hdrWrap>header.hdr>h1>nav{}
+div.hdrWrap>header.hdr>h1>nav>h4{}
+div.hdrWrap>header.hdr>h1>nav>h4>i{}
 
 /* 컨텐츠 공통 */
 div.content{}
@@ -28,59 +30,63 @@ div.content>section>article>div.texts>div.icons{}
 div.content>section>article>div.texts>div.icons>i{}
 
 /* 컨텐츠1 */
-div.content.cnt1{}
-div.content.cnt1>header{}
-div.content.cnt1>header>h2{}
-div.content.cnt1>header>p{}
-div.content.cnt1>section{}
-div.content.cnt1>section>div.artTop{}
-div.content.cnt1>section>div.artTop>article{}
-div.content.cnt1>section>div.artTop>article>div.image{}
-div.content.cnt1>section>div.artTop>article>div.texts{}
-div.content.cnt1>section>div.artTop>article>div.texts>h3{}
-div.content.cnt1>section>div.artTop>article>div.texts>h4{}
-div.content.cnt1>section>div.artTop>article>div.texts>p{}
-div.content.cnt1>section>div.artTop>article>div.texts>p>div.icons{}
-div.content.cnt1>section>div.artTop>article>div.texts>p>div.icons>i{}
-div.content.cnt1>section>div.artBtm{}
-div.content.cnt1>section>div.artBtm>article{}
-div.content.cnt1>section>div.artBtm>article>div.image{}
-div.content.cnt1>section>div.artBtm>article>div.texts{}
-div.content.cnt1>section>div.artBtm>article>div.texts>h3{}
-div.content.cnt1>section>div.artBtm>article>div.texts>p{}
-div.content.cnt1>section>div.artBtm>article>div.texts>p>div.icons{}
-div.content.cnt1>section>div.artBtm>article>div.texts>p>div.icons>i{}
+div.cntWrap.wrap1{}
+div.cntWrap.wrap1>div.content.cnt1{}
+div.cntWrap.wrap1>div.content.cnt1>header{}
+div.cntWrap.wrap1>div.content.cnt1>header>h2{}
+div.cntWrap.wrap1>div.content.cnt1>header>p{}
+div.cntWrap.wrap1>div.content.cnt1>section{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.image{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts>h3{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts>h4{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts>p{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts>p>div.icons{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts>p>div.icons>i{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.image{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>h3{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>p{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>p>div.icons{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>p>div.icons>i{}
 
 /* 컨텐츠2 */
-div.content.cnt2{}
-div.content.cnt2>header{}
-div.content.cnt2>header>h2{}
-div.content.cnt2>header>h2>p{}
-div.content.cnt2>section{}
-div.content.cnt2>section>article{}
-div.content.cnt2>section>article>div.image{}
-div.content.cnt2>section>article>div.texts{}
-div.content.cnt2>section>article>div.texts>h3{}
-div.content.cnt2>section>article>div.texts>h4{}
-div.content.cnt2>section>article>div.texts>p{}
-div.content.cnt2>section>article>div.texts>p{}
-div.content.cnt2>section>article>div.texts>div.button{}
+div.cntWrap.wrap2{}
+div.cntWrap.wrap2>div.content.cnt2{}
+div.cntWrap.wrap2>div.content.cnt2>header{}
+div.cntWrap.wrap2>div.content.cnt2>header>h2{}
+div.cntWrap.wrap2>div.content.cnt2>header>h2>p{}
+div.cntWrap.wrap2>div.content.cnt2>section{}
+div.cntWrap.wrap2>div.content.cnt2>section>article{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.image{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>h3{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>h4{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>p{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>p{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>div.button{}
 
 /* 컨텐츠3 */
-div.content.cnt3{}
-div.content.cnt3>header{}
-div.content.cnt3>header>h2{}
-div.content.cnt3>header>p{}
-div.content.cnt3>section{}
-div.content.cnt3>section>article{}
-div.content.cnt3>section>article>div.image{}
-div.content.cnt3>section>article>div.texts{}
-div.content.cnt3>section>article>div.texts>h3{}
-div.content.cnt3>section>article>div.texts>p{}
+div.cntWrap.wrap3{}
+div.cntWrap.wrap3>div.content.cnt3{}
+div.cntWrap.wrap3>div.content.cnt3>header{}
+div.cntWrap.wrap3>div.content.cnt3>header>h2{}
+div.cntWrap.wrap3>div.content.cnt3>header>p{}
+div.cntWrap.wrap3>div.content.cnt3>section{}
+div.cntWrap.wrap3>div.content.cnt3>section>article{}
+div.cntWrap.wrap3>div.content.cnt3>section>article>div.image{}
+div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts{}
+div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>h3{}
+div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>p{}
 
 /* 푸터 */
-footer{}
-footer>h4{}
-footer>p{}
-footer>div.icons{}
-footer>div.icons>i{}
+div.ftrWrap{}
+div.ftrWrap>footer{}
+div.ftrWrap>footer>h4{}
+div.ftrWrap>footer>p{}
+div.ftrWrap>footer>div.icons{}
+div.ftrWrap>footer>div.icons>i{}
