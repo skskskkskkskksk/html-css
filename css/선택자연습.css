@@ -61,6 +61,8 @@ div.cntWrap>div.content>header>p{
     height: 40px;
     overflow: hidden;
     width: calc(100% / 12 * 4.5);
+    margin: 0 auto;
+    text-align: center;
 }
 div.cntWrap>div.content>section{}
 div.cntWrap>div.content>section{}
@@ -168,12 +170,15 @@ div.ftrWrap>footer{
 }
 div.ftrWrap>footer>h4{
     line-height: 80px;
+    text-align: center;
 }
 div.ftrWrap>footer>p{
     line-height: 20px;
     height: 40px;
     overflow: hidden;
     width: calc(100% / 12 * 4.5);
+    margin: 0 auto;
+    text-align: center;
 }
 div.ftrWrap>footer>div.sns{
     line-height: 80px;
