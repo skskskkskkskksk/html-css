@@ -8,9 +8,9 @@ div.hdrTopWrap>div.hdrTop>nav>h4{}
 
 /* 헤더 */
 div.hdrWrap{}
-div.hdrWrap>div.hdr{}
-div.hdrWrap>div.hdr>h1{}
-div.hdrWrap>div.hdr>nav{}
-div.hdrWrap>div.hdr>nav>h4{}
-div.hdrWrap>div.hdr>nav>h4>{}
+div.hdrWrap>header.hdr{}
+div.hdrWrap>header.hdr>h1{}
+div.hdrWrap>header.hdr>nav{}
+div.hdrWrap>header.hdr>nav>h4{}
+div.hdrWrap>header.hdr>nav>h4>{}
 /* 컨텐츠 공통 */
