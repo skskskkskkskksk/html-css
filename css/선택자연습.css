@@ -54,12 +54,13 @@ div.cntWrap>div.content{
 div.cntWrap>div.content>header{}
 div.cntWrap>div.content>header>h2{
     line-height: 80px;
+    text-align: center;
 }
 div.cntWrap>div.content>header>p{
     line-height: 20px;
     height: 40px;
-    outline: 1px solid red;
     overflow: hidden;
+    width: calc(100% / 12 * 4.5);
 }
 div.cntWrap>div.content>section{}
 div.cntWrap>div.content>section{}
@@ -68,9 +69,18 @@ div.cntWrap>div.content>section article div.image{
     background-color: #BFC7D2;
 }
 div.cntWrap>div.content>section>article>div.texts{}
-div.cntWrap>div.content>section>article>div.texts>h3{}
-div.cntWrap>div.content>section>article>div.texts>h4{}
-div.cntWrap>div.content>section>article>div.texts>p{}
+div.cntWrap>div.content>section>article>div.texts>h3{
+    line-height: 40px;
+}
+div.cntWrap>div.content>section article>div.texts>h4{
+    line-height: 40px;
+}
+div.cntWrap>div.content>section article>div.texts>p{
+    line-height: 20px;
+    height: 80px;
+    overflow: hidden;
+}
+
 /* 컨텐츠1 */
 div.cntWrap.wrap1{}
 div.cntWrap.wrap1>div.content.cnt1{}
@@ -125,7 +135,9 @@ div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts{
 }
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>h3{}
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>h4{}
-div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>p{}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>p{
+    height: 100px;
+}
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>div.button{}
 
 /* 컨텐츠3 */
@@ -154,7 +166,16 @@ div.ftrWrap>footer{
     max-width: 1080px;
     margin: 0 auto;
 }
-div.ftrWrap>footer>h4{}
-div.ftrWrap>footer>p{}
-div.ftrWrap>footer>div.sns{}
+div.ftrWrap>footer>h4{
+    line-height: 80px;
+}
+div.ftrWrap>footer>p{
+    line-height: 20px;
+    height: 40px;
+    overflow: hidden;
+    width: calc(100% / 12 * 4.5);
+}
+div.ftrWrap>footer>div.sns{
+    line-height: 80px;
+}
 div.ftrWrap>footer>div.sns>i{}
