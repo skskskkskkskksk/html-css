@@ -82,3 +82,9 @@ div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>h3{}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>p{}
 
 /* 푸터 */
+div.ftrWrap{}
+div.ftrWrap>footer{}
+div.ftrWrap>footer>h4{}
+div.ftrWrap>footer>p{}
+div.ftrWrap>footer>div.sns{}
+div.ftrWrap>footer>div.sns>i{}
