@@ -19,10 +19,10 @@ div.hdrTopWrap>div.hdrTop>div.icons>i{
 }
 div.hdrTopWrap>div.hdrTop>nav{
     display: flex;
-    color: #fff;
 }
 div.hdrTopWrap>div.hdrTop>nav>h4{
     line-height: 40px;
+    color: #fff;
 }
 
 /* 헤더 */
@@ -38,12 +38,14 @@ div.hdrWrap>header.hdr{
 }
 div.hdrWrap>header.hdr>h1{
     line-height: 80px;
+    color: #fff;
 }
 div.hdrWrap>header.hdr>nav{
     display: flex;
 }
 div.hdrWrap>header.hdr>nav>h4{
     line-height: 80px;
+    color: #fff;
 }
 div.hdrWrap>header.hdr>nav>h4>{}
 
