@@ -14,9 +14,12 @@ div.hdrTopWrap>div.hdrTop{
 div.hdrTopWrap>div.hdrTop>div.icons{
     line-height: 40px;
 }
-div.hdrTopWrap>div.hdrTop>div.icons>i{}
+div.hdrTopWrap>div.hdrTop>div.icons>i{
+    color: #fff;
+}
 div.hdrTopWrap>div.hdrTop>nav{
     display: flex;
+    color: #fff;
 }
 div.hdrTopWrap>div.hdrTop>nav>h4{
     line-height: 40px;
