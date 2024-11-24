@@ -13,4 +13,21 @@ div.hdrWrap>header.hdr>h1{}
 div.hdrWrap>header.hdr>nav{}
 div.hdrWrap>header.hdr>nav>h4{}
 div.hdrWrap>header.hdr>nav>h4>{}
+
 /* 컨텐츠 공통 */
+div.cntWrap{}
+div.cntWrap>div.content{}
+div.cntWrap>div.content>header{}
+div.cntWrap>div.content>header>h2{}
+div.cntWrap>div.content>header>p{}
+div.cntWrap>div.content>section{}
+div.cntWrap>div.content>section{}
+div.cntWrap>div.content>section>article{}
+div.cntWrap>div.content>section>article>div.image{}
+div.cntWrap>div.content>section>article>div.texts{}
+div.cntWrap>div.content>section>article>div.texts>h3{}
+div.cntWrap>div.content>section>article>div.texts>h4{}
+div.cntWrap>div.content>section>article>div.texts>p{}
+/* 컨텐츠1 */
+/* 컨텐츠2 */
+/* 컨텐츠3 */
