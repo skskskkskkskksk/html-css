@@ -1,68 +1,128 @@
+@import url('all.min.css');
+@import url('./reset.min.css');
 /* 헤더탑 */
-div.hdrTopWrap{}
-div.hdrTopWrap>div.hdrTop{}
-div.hdrTopWrap>div.hdrTop>div.icons{}
+div.hdrTopWrap{
+    background-color: #333333;
+}
+div.hdrTopWrap>div.hdrTop{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+div.hdrTopWrap>div.hdrTop>div.icons{
+    line-height: 40px;
+}
 div.hdrTopWrap>div.hdrTop>div.icons>i{}
-div.hdrTopWrap>div.hdrTop>nav{}
-div.hdrTopWrap>div.hdrTop>nav>h4{}
+div.hdrTopWrap>div.hdrTop>nav{
+    display: flex;
+}
+div.hdrTopWrap>div.hdrTop>nav>h4{
+    line-height: 40px;
+}
 
 /* 헤더 */
-div.hdrWrap{}
-div.hdrWrap>header.hdr{}
-div.hdrWrap>header.hdr>h1{}
-div.hdrWrap>header.hdr>nav{}
-div.hdrWrap>header.hdr>nav>h4{}
+div.hdrWrap{
+    background-color: #8F8697;
+}
+div.hdrWrap>header.hdr{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+div.hdrWrap>header.hdr>h1{
+    line-height: 80px;
+}
+div.hdrWrap>header.hdr>nav{
+    display: flex;
+}
+div.hdrWrap>header.hdr>nav>h4{
+    line-height: 80px;
+}
 div.hdrWrap>header.hdr>nav>h4>{}
 
 /* 컨텐츠 공통 */
 div.cntWrap{}
-div.cntWrap>div.content{}
+div.cntWrap>div.content{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 div.cntWrap>div.content>header{}
-div.cntWrap>div.content>header>h2{}
-div.cntWrap>div.content>header>p{}
+div.cntWrap>div.content>header>h2{
+    line-height: 80px;
+}
+div.cntWrap>div.content>header>p{
+    line-height: 20px;
+    height: 40px;
+    outline: 1px solid red;
+    overflow: hidden;
+}
 div.cntWrap>div.content>section{}
 div.cntWrap>div.content>section{}
 div.cntWrap>div.content>section>article{}
-div.cntWrap>div.content>section>article>div.image{}
+div.cntWrap>div.content>section article div.image{
+    background-color: #BFC7D2;
+}
 div.cntWrap>div.content>section>article>div.texts{}
 div.cntWrap>div.content>section>article>div.texts>h3{}
 div.cntWrap>div.content>section>article>div.texts>h4{}
 div.cntWrap>div.content>section>article>div.texts>p{}
 /* 컨텐츠1 */
-div.cntWrap.warp1{}
-div.cntWrap.warp1>div.content.cnt1{}
-div.cntWrap.warp1>div.content.cnt1>header{}
-div.cntWrap.warp1>div.content.cnt1>header>h2{}
-div.cntWrap.warp1>div.content.cnt1>header>p{}
-div.cntWrap.warp1>div.content.cnt1>section{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artTop{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artTop>article{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artTop>article>div.image{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artTop>article>div.texts{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artTop>article>div.texts>h3{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artTop>article>div.texts>h4{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artTop>article>div.texts>p{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artTop>article>div.texts>div.icons{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artTop>article>div.texts>div.icons>i{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artBtm{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artBtm>article{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artBtm>article>div.image{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artBtm>article>div.texts{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artBtm>article>div.texts>h3{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artBtm>article>div.texts>p{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artBtm>article>div.texts>div.icons{}
-div.cntWrap.warp1>div.content.cnt1>section>div.artBtm>article>div.texts>div.icons>i{}
+div.cntWrap.wrap1{}
+div.cntWrap.wrap1>div.content.cnt1{}
+div.cntWrap.wrap1>div.content.cnt1>header{}
+div.cntWrap.wrap1>div.content.cnt1>header>h2{}
+div.cntWrap.wrap1>div.content.cnt1>header>p{}
+div.cntWrap.wrap1>div.content.cnt1>section{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop{
+    display: flex;
+}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.image{
+    height: 320px;
+}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts>h3{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts>h4{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts>p{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts>div.icons{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artTop>article>div.texts>div.icons>i{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm{
+    display: flex;
+}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.image{
+    height: 350px;
+}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>h3{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>p{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>div.icons{}
+div.cntWrap.wrap1>div.content.cnt1>section>div.artBtm>article>div.texts>div.icons>i{}
 
 /* 컨텐츠2 */
 div.cntWrap.wrap2{}
 div.cntWrap.wrap2>div.content.cnt2{}
-div.cntWrap.wrap2>div.content.cnt2>header{}
+div.cntWrap.wrap2>div.content.cnt2>header{
+    background-color: #918A9C;
+}
 div.cntWrap.wrap2>div.content.cnt2>header>h2{}
 div.cntWrap.wrap2>div.content.cnt2>header>p{}
 div.cntWrap.wrap2>div.content.cnt2>section{}
-div.cntWrap.wrap2>div.content.cnt2>section>article{}
-div.cntWrap.wrap2>div.content.cnt2>section>article>div.image{}
-div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts{}
+div.cntWrap.wrap2>div.content.cnt2>section>article{
+    display: flex;
+}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.image{
+    height: 400px;
+    width: 50%;
+}
+div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts{
+    width: 50%;
+}
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>h3{}
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>h4{}
 div.cntWrap.wrap2>div.content.cnt2>section>article>div.texts>p{}
@@ -74,16 +134,26 @@ div.cntWrap.wrap3>div.content.cnt3{}
 div.cntWrap.wrap3>div.content.cnt3>header{}
 div.cntWrap.wrap3>div.content.cnt3>header>h2{}
 div.cntWrap.wrap3>div.content.cnt3>header>p{}
-div.cntWrap.wrap3>div.content.cnt3>section{}
+div.cntWrap.wrap3>div.content.cnt3>section{
+    display: flex;
+}
 div.cntWrap.wrap3>div.content.cnt3>section>article{}
-div.cntWrap.wrap3>div.content.cnt3>section>article>div.image{}
+div.cntWrap.wrap3>div.content.cnt3>section>article>div.image{
+    height: 240px;
+}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts{}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>h3{}
 div.cntWrap.wrap3>div.content.cnt3>section>article>div.texts>p{}
 
 /* 푸터 */
-div.ftrWrap{}
-div.ftrWrap>footer{}
+div.ftrWrap{
+    background-color: #A194A6;
+}
+div.ftrWrap>footer{
+    width: 80%;
+    max-width: 1080px;
+    margin: 0 auto;
+}
 div.ftrWrap>footer>h4{}
 div.ftrWrap>footer>p{}
 div.ftrWrap>footer>div.sns{}
